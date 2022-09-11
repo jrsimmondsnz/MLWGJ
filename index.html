@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | MLW GJ</title>
-  </head>
-  <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=1080 height=1920 style="width: 1080px; height: 1920px; background: #231F20"></canvas>
-    <script src="Build/Build.loader.js"></script>
-        <script>
+    <title>Unity WebGL Player | LaunchDay</title>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
       UnityLoader.instantiate("unityContainer", "Build/Builds.json");
     </script>
+  </head>
+  <body>
+    <div id="unityContainer" style="width: 432px; height: 930px; margin: auto"></div>
   </body>
 </html>
